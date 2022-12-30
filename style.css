@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root {
+    --prime-c: white;
+    --second-c: #cae962;
+    --tnas-c:rgb(15, 61, 15);
+    --padding-inline-section: 25px;
+}
+body{
+    background-color: #0c1717;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--prime-c);
+}
+.flex{
+    display: flex;
+    gap: 30px;
+    align-content: space-between;
+}
+nav{
+    background-color: transparent;
+    width: 100vw;
+    height: 5rem;
+    position:fixed;
+    top: 0;
+    z-index: 11;
+
+}
+.navigation{
+    padding-inline: 100px;
+    justify-content: space-between;
+}
+.window-s{
+    background: var(--tnas-c);
+    box-shadow: 0 1rem 2rem #0c1717;
+}
+.logo{
+    font-size: 40px;
+    margin-block: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    color: var(--prime-c);
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn:hover{
+    /* color: #0e4042; */
+    color: var(--second-c);
+}
+.header-s{
+    
+    position: relative;
+    top: 5rem;
+    padding-inline: 100px;
+    justify-content: space-evenly;
+}
+.intro{
+    margin-block: 150px;
+}
+.intro h1{
+    font-size: 70px;
+}
+.intro p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-block: 30px;
+    
+}
+.solid-btn{
+    margin-block: 25px;
+    background-color:var(--second-c) ;
+    border-radius: 6px;
+    font-weight: 1000;
+    color: black !important;
+    padding:12px 24px ;
+    box-shadow:0 0 2px ;
+    transition: 0.2s ease-out;
+    text-align: center;
+    text-decoration: none;
+}
+
+.solid-btn:hover {
+    background-color: var(--prime-c);
+    color: black !important;
+}
+.side-img{
+    margin-top:6rem ;
+    justify-content: space-between;
+    margin-left: 150px;
+    color: var(--second-c);
+}
+.img-l{
+    margin-block: 30px;
+}
+.img-l i{
+    margin-block:30px ;
+}
+.img-r{
+    margin-block: 240px;
+}
+
+.timer-s{
+    
+    justify-content: space-evenly;
+    /* font-size: 50px; */
+    
+}
+.time span{
+    font-weight:bolder;
+    margin-block: 30px;
+    margin-left: 10px;
+    font-size: 70px;
+    
+}
+.timer-left{
+    margin-top: 50px;
+}
+.timer-left h2{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.solid-btn2 {
+    border: 4px solid var(--second-c);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--second-c) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+    margin-block: 30px;
+    margin-left: 17px;
+}
+.solid-btn2:hover{
+    color: var(--prime-c) !important;
+    border-color: var(--prime-c);
+}
+.timer-s img{
+    height: 400px;
+    background-color: transparent;
+    
+}
+.contact-input {
+  width: 100%;
+  padding:15px ;
+  margin-bottom: 20px ;
+  border-radius: 6px;
+  border: 4px solid var(--second-c);
+  background: var(--tnas-c) ;
+  color: white;
+  font-size: 20px;
+  font-weight: 70px;
+  
+}
+.contact-input::placeholder{
+    color: rgba(255, 255, 255, 0.425);
+}
+.form{
+    margin: 7rem auto;
+    background:var(--tnas-c);
+    padding: 2rem;
+    display:flex ;
+    gap: 4rem;
+    justify-content: space-evenly;
+    width: 90%;
+    border-radius: 30px;
+    /* padding: 2rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 6rem;
+    margin: 7rem auto;
+    border-radius: 1rem; */
+}
+.contact-img{
+    background:rgb(87, 128, 87) ;
+    width:400px ;
+    border-radius: 30px;
+    position: relative;
+    padding: 3rem;
+    bottom: 5rem;   
+}
+.contact-img i{
+    font-size: 8rem;
+    color: var(--second-c);
+    
+}
+.contact-img p{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-weight: 600;
+    
+}
+.contact-img h3{
+    font-size: 1.6rem;
+    margin-top: 13px;
+}
+.contact-img h5{
+    font-size: 1rem;
+    margin-top: 13px;
+    color: #cae962;
+}
+
+.footer{
+    justify-content: space-evenly;
+    background: var(--tnas-c);
+    margin-top: 5em;
+}
+.footer div{
+    margin-block: 2rem;
+}
+.footer h4{
+    font-size: 1.2rem;
+}
+.footer li:hover{
+    font-weight: 600;
+    color: var(--second-c);
+}
