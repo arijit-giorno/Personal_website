@@ -1,2 +1,2 @@
-# Persobal_website
+# Personal_website
 thats my first website
